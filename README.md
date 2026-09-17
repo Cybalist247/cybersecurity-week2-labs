@@ -183,7 +183,7 @@ ipconfig
 - Default Gateway: `10.102.174.10`
 - **LAN subnet:** `10.102.174.0/24`
 
-![ipconfig output](./PM5-zenmap/screenshots/2-ipconfig.png)
+![ipconfig output](snip.png)
 
 ---
 
@@ -207,7 +207,7 @@ Nmap done: 256 IP addresses (2 hosts up) scanned in 3.71 seconds
 **Findings:**
 - **2 hosts live:** `10.102.174.10` (gateway/router), `10.102.174.200` (this PC)
 
-![Zenmap ping scan](./PM5-zenmap/screenshots/3-ping-scan.png)
+![Zenmap ping scan](2-zenmap.png)
 
 ---
 
@@ -225,12 +225,6 @@ Opened the Topology tab in Zenmap, enabled the Legend, adjusted zoom/ring gap fo
 ![Zenmap topology](./PM5-zenmap/screenshots/4-topology.png)
 
 **Note:** Only 2 hosts appeared in the scan — consistent with a Wi-Fi network using client/AP isolation, which prevents connected devices from seeing each other.
-
----
-
-## Full Report
-
-See [`Week2_Project_Report.docx`](./Week2_Project_Report.docx) for the complete write-up with all screenshots, command outputs, and analysis of how each tool's findings could be used by an attacker during the reconnaissance phase of a penetration test.
 
 ---
 
