@@ -31,7 +31,6 @@ cybersecurity-week2-labs/
     ├── nmap-scan.txt
     ├── zenmap-topology.pdf
     └── screenshots/
-        ├── 1-zenmap-install.png
         ├── 2-ipconfig.png
         ├── 3-ping-scan.png
         └── 4-topology.png
@@ -220,9 +219,9 @@ Nmap done: 256 IP addresses (2 hosts up) scanned in 3.71 seconds
 
 ### Task 7 — Save Output Topology as PDF
 
-Opened the Topology tab in Zenmap, enabled the Legend, adjusted zoom/ring gap for readability, and exported as [`zenmap-topology.pdf`](./PM5-zenmap/zenmap-topology.pdf).
+Opened the Topology tab in Zenmap, enabled the Legend, adjusted zoom/ring gap for readability, and exported as [`zenmap-topology.pdf`](zenmap-topology.pdf).
 
-![Zenmap topology](./PM5-zenmap/screenshots/4-topology.png)
+![Zenmap topology](3-zenmap.png)
 
 **Note:** Only 2 hosts appeared in the scan — consistent with a Wi-Fi network using client/AP isolation, which prevents connected devices from seeing each other.
 
