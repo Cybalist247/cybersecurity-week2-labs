@@ -37,9 +37,6 @@ cybersecurity-week2-labs/
         └── 4-topology.png
 ```
 
-> Rename/add your actual screenshot files to match the paths above (or edit the image links below to match your own filenames) before pushing.
-
----
 
 ## Module 1 — Footprinting & Reconnaissance (PM1)
 
@@ -62,7 +59,7 @@ whois networkwalks.com
 
 **How an attacker uses this:** whois reveals the registrar, registration/expiry dates, and name servers. Knowing the hosting provider and abuse contacts helps with reconnaissance and social engineering planning.
 
-![Whois lookup output](./PM1-footprinting/screenshots/1-whois.png)
+![Whois lookup output](1-whois.png)
 
 ---
 
@@ -80,7 +77,7 @@ whatweb networkwalks.com
 
 **How an attacker uses this:** whatweb exposes exact software and versions. An attacker checks these against public vulnerability databases (CVE / Exploit-DB) to find known exploits for that specific WordPress/plugin version.
 
-![WhatWeb output](./PM1-footprinting/screenshots/2-whatweb.png)
+![WhatWeb output](2-whatweb.png)
 
 ---
 
@@ -96,7 +93,7 @@ nslookup networkwalks.com
 
 **How an attacker uses this:** knowing the real IP lets an attacker scan the server directly, check for other sites hosted on the same IP, and map the target's infrastructure.
 
-![Nslookup output](./PM1-footprinting/screenshots/3-nslookup.png)
+![Nslookup output](3-nslookup.png)
 
 ---
 
@@ -114,7 +111,7 @@ curl -I https://networkwalks.com
 
 **How an attacker uses this:** HTTP headers leak the server/caching stack and hidden endpoints without needing to load the full page, letting an attacker fingerprint the stack quickly.
 
-![Curl headers output](./PM1-footprinting/screenshots/4-curl.png)
+![Curl headers output](4-curl.png)
 
 ---
 
@@ -130,7 +127,7 @@ wafw00f networkwalks.com
 
 **How an attacker uses this:** knowing a WAF is present shapes the whole attack strategy — naive exploitation attempts will be logged or blocked, so an attacker must be more careful or attempt WAF-bypass techniques.
 
-![Wafw00f output](./PM1-footprinting/screenshots/5-wafw00f.png)
+![Wafw00f output](5-wafw00f.png)
 
 ---
 
@@ -149,7 +146,7 @@ dnsrecon -d networkwalks.com
 
 **How an attacker uses this:** dnsrecon maps the target's entire DNS footprint (mail servers, DNS software version, SPF policy, cPanel service records) — each a potential foothold and clue to the hosting/email setup.
 
-![Dnsrecon output](./PM1-footprinting/screenshots/6-dnsrecon.png)
+![Dnsrecon output](6-dnsrecon.png)
 
 ---
 
@@ -170,7 +167,6 @@ Zenmap is the official GUI front-end for Nmap, used to discover live hosts on a 
 
 Downloaded the Windows installer from [nmap.org/download.html](https://nmap.org/download.html) and installed with default components (including Zenmap GUI and Npcap).
 
-![Zenmap installation](./PM5-zenmap/screenshots/1-zenmap-install.png)
 
 ---
 
