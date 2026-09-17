@@ -127,7 +127,7 @@ wafw00f networkwalks.com
 
 **How an attacker uses this:** knowing a WAF is present shapes the whole attack strategy — naive exploitation attempts will be logged or blocked, so an attacker must be more careful or attempt WAF-bypass techniques.
 
-![Wafw00f output](5-wafw00f.png)
+![Wafw00f output](5-wafwoof.png)
 
 ---
 
